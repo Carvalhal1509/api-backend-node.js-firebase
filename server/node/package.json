@@ -1,0 +1,25 @@
+{
+  "name": "mp-card-payment-nodejs",
+  "version": "1.0.0",
+  "description": "MercadoPago payment integration using Firebase Functions",
+  "main": "index.js",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "start": "firebase emulators:start",
+    "deploy": "firebase deploy",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase": "^11.1.0",
+    "firebase-functions": "^4.4.1",
+    "mercadopago": "^1.5.17"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "nodemon": "^2.0.13"
+  }
+}
